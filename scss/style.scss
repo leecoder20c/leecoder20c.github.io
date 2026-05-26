@@ -1,0 +1,28 @@
+// 변수 선언 예시
+$primary-color: #3498db;
+$bg-color: #f4f4f4;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $bg-color;
+  font-family: sans-serif;
+  height: 200vh; // ScrollTrigger 테스트를 위해 높이를 길게 설정
+}
+
+.container {
+  padding: 50px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: $primary-color;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  cursor: grab;
+  margin-top: 50px;
+}
