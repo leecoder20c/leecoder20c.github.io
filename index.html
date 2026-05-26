@@ -1,26 +1,33 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My GitHub Website</title>
-  
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-  
-  <div class="container">
-    <h1>Hello, GitHub Pages!</h1>
-    <div class="box">Drag Me or Scroll!</div>
-  </div>
+---
+layout: default
+title: 시간 여행 상점 | 메인
+---
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  
-  <script src="./js/script.js"></script>
-</body>
-</html>
+<main class="container-fluid px-4 mt-4 mb-4 page-index">
+  <section class="row g-3">
+    <div class="col-md-6">
+      <a href="/board/item-01.html" class="text-decoration-none d-block h-100 board-item">
+        <div class="position-relative bg bg-light h-100 d-flex flex-column justify-content-end p-5" style="min-height: 600px; background: url('/images/item/item01.jpg'); background-size: cover; background-position: center;">
+          <h2 class="text-white fw-bold display-4">쓱 하고 바르면 순식간에 착</h2>
+          <p class="text-white fs-5">조각난 시간을 붙여주는 풀</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="col-md-6 d-flex flex-column gap-3">
+      <a href="/board/item-02.html" class="text-decoration-none d-flex flex-grow-1 board-item">
+        <div class="bg bg-light p-5 text-center w-100 d-flex flex-column justify-content-center align-items-center text-white" style="background-color: #c8c9e6 !important; background-image: url('/images/item/item02.jpg'); background-size: cover; background-position: center;">
+          <h3 class="border border-white p-2 mt-3 d-inline-block text-white">취 향 시 간</h3>
+          <p class="mt-2 text-white">2시의 향기를 아시나요</p>
+        </div>
+      </a>
+      
+      <a href="/board/item-03.html" class="text-decoration-none d-flex flex-grow-1 board-item">
+        <div class="bg bg-dark text-white p-5 text-center w-100 d-flex flex-column justify-content-center align-items-center">
+          <h3 class="fs-2">타임캐시 등록하고 할인 받자</h3>
+          <p class="mt-2">타임 포인트 등록 시 10% 추가 적립</p>
+        </div>
+      </a>
+    </div>
+  </section>
+</main>
