@@ -1,0 +1,22 @@
+# 1. Jekyll 빌드 결과물 (가장 중요)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# 2. 로컬 개발 환경 설정 및 에디터 파일
+.vscode/
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# 3. 의존성 및 패키지 (Ruby 환경을 사용하는 경우)
+vendor/
+.bundle/
+Gemfile.lock
+
+# 4. 기타
+node_modules/
+.sass-cache/
+
+# 5. 작업폴더
+scss/
