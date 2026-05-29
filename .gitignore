@@ -20,3 +20,5 @@ node_modules/
 
 # 5. 작업폴더
 scss/
+admin.html
+.vscode/settings.json
